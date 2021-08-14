@@ -130,7 +130,14 @@ html{
 
 /* Clients Section */
 #client-section{ 
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#client-section.h1 {
+    align-content: center;
 }
 
 #client-section::before{
